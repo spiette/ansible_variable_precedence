@@ -15,4 +15,5 @@ ansible-playbook \
   playbook.yml \
   -i hosts/local.hosts \
   --extra-vars "echo_var='a command line extra var'" \
+  -c local \
   -v

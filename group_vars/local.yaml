@@ -1,0 +1,8 @@
+---
+# Group variables can be assigned in the hosts inventory, or in a file in
+# group_vars. The latter have precedence over the former.
+#
+# Higher Precedent: Inventory Host variable
+# Lower Precedent: Inventory Group variable
+#
+echo_var: a group_vars file var

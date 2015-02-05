@@ -1,0 +1,9 @@
+---
+# Host variables can be assigned in the hosts inventory, or in a file in
+# host_vars. The latter have precedence over the former.
+#
+# Higher Precedent: Role var
+# Lower Precedent: Inventory host variable
+#
+echo_var: a host_vars file var
+

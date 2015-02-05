@@ -16,7 +16,9 @@ In order from highest to lowest:
 * Playbook vars
 * Playbook Role parameter
 * Role var
+* host_vars file variable
 * Inventory Host variable
+* group_vars file variable
 * Inventory Group variable
 * Role default variable
 
